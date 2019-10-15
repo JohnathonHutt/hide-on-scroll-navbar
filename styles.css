@@ -1,0 +1,43 @@
+
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: calc(1em + 1vw);
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* nav bar */
+nav {
+  display: block;
+  background-color: #373a6d;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: 15px solid #ff8246;
+  transition: top 0.3s;
+}
+
+.hide {
+  top: calc(-15px - 56px - 1.2rem);
+}
+
+.navLink {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 28px 0.63rem;
+}
+
+.navLink:hover {
+  color: #ff8246;
+  background-color: white;
+}
